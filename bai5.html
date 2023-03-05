@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+        let a = parseFloat(prompt("Nhập điểm thi giữa kì"));
+        let b = parseFloat(prompt("Nhập điểm thi cuối kì"));
+        let tong = ((a + b) / 2);
+        console.log(tong)
+        if (tong <= 5 ){
+            document.write("Hạnh kiểm kém");
+        }else if ( tong <= 6){
+           document.write("Hạnh kiểm trung binh");
+        }else if (tong <=7 ){
+            document.write("Hạnh kiểm khá");
+        }else {
+         document.write("Hạnh kiểm giỏi");
+        }
+
+</script>
